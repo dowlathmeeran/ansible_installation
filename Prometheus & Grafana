@@ -45,3 +45,5 @@ datasources:
 
 13). finally see the service file 
       (kubectl get svc -n monitoring)
+
+14). Promthus-grafana-monitoring 11802,1860,17375----> grafana no
