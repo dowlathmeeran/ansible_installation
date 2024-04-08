@@ -1,0 +1,23 @@
+sudo apt update 
+
+sudo apt-add-repository ppa:ansible/ansible
+
+sudo apt update
+
+sudo apt install ansible
+
+sudo vi /etc/ansible/hosts
+
+[servers]
+server1 ansible_host=52.66.250.0
+server2 ansible_host=42.46.50.20 
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
+
+login ansible slave1 and slave2 and switch to root user
+
+in master ansible switch root user and add the command (ssh-keygen)
+
+copy the key locating in cat/root/.ssh/id_rsa.pub and paste in slave1 and slave2-> cd .ssh -> vi authorized_keys and paste the key
+
+
