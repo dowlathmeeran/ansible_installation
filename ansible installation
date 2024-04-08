@@ -20,4 +20,6 @@ in master ansible switch root user and add the command (ssh-keygen)
 
 copy the key locating in cat/root/.ssh/id_rsa.pub and paste in slave1 and slave2-> cd .ssh -> vi authorized_keys and paste the key
 
+export ANSIBLE_HOST_KEY_CHECKING=False
+
 
