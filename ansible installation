@@ -22,4 +22,6 @@ copy the key locating in cat/root/.ssh/id_rsa.pub and paste in slave1 and slave2
 
 export ANSIBLE_HOST_KEY_CHECKING=False
 
+finally to check the servers connection with master:
+ansible -m ping all
 
